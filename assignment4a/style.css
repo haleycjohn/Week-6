@@ -1,5 +1,45 @@
 style.css
 
-html {
-  background: url(images/top-image.png)
+html{
+  background-color: white;
+  border-top: 6px solid maroon;
+  border-bottom: 6px solid maroon;
+}
+
+body {
+  width: 400px;
+  margin: 0 auto;
+  background: url(images/top-image.png), url(images/bottom-image.png), linear-gradient(#DCDCDC, #FFFFFF, #C0C0C0, transparent);
+  background-attachment: fixed;
+  background-position: top, bottom, top;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+#imgborder {
+	border: 1px solid red;
+}
+
+#ig {
+	background: url(images/top-image.png), url(images/bottom-image.png);
+
+}
+
+h1 {
+  background-image: url(images/logo.png);
+  width: 100px;
+  height: 100px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  filter: drop-shadow(8px 7px 4px);
+}
+
+
+article {
+  text-align: right;]
+}
+
+p {
+  font-family: sans-serif;
+  font-size: 16px;
+  color: black;
 }
